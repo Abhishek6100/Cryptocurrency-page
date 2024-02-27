@@ -1,0 +1,459 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  max-width: 1250px;
+  margin: auto;
+}
+
+.section1 {
+  background: rgba(10, 25, 57, 1);
+}
+.container_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.header_title {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+.trades_name {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+.section2 {
+  background: rgba(4, 19, 52, 1);
+}
+.trades_names_box {
+  padding: 40px 0px 40px 0px;
+}
+.market_heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+.trades_24hours {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 5px;
+}
+.table_data table {
+  width: 100%;
+}
+.table_row th {
+  color: rgba(255, 255, 255, 1);
+  text-align: start;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.table_row td {
+  color: rgba(255, 255, 255, 1);
+  text-align: start;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 0px;
+}
+
+.treds_short_name {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(133, 133, 133, 1);
+  padding-left: 5px;
+}
+
+.bitcoin1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: -12px;
+}
+.graph_image {
+  width: 58px;
+  height: 22px;
+}
+.button_box {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 30px 0px;
+}
+.button {
+  background: rgba(61, 216, 238, 1);
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 700px;
+  color: rgba(255, 255, 255, 1);
+  width: 200px;
+  height: 60px;
+  border: none;
+}
+
+.section3 {
+  background: rgba(0, 9, 42, 1);
+  padding: 40px 0px;
+}
+.map {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.section3_image {
+  background-image: url(Frame.png);
+  width: 765px;
+  height: 547px;
+}
+.section3_content {
+  width: 40%;
+}
+
+.map_content {
+  font-size: 36px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 14px;
+}
+
+.map_content_lorem {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  max-width: 78%;
+  padding: 15px 0px;
+}
+.Clarity_container {
+  display: flex;
+  gap: 20px;
+  max-width: 78%;
+  margin-bottom: 25px;
+}
+.vector_box {
+  padding: 20px;
+  background: rgba(15, 21, 53, 1);
+  text-align: center;
+}
+.Clarity_heading {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  padding: 10px 0px;
+}
+.Clarity_para {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.section4 {
+  background: rgba(4, 19, 52, 1);
+}
+
+.portfolio_container {
+  display: flex;
+  width: 100%;
+  padding: 25px 0px;
+}
+
+.portfolio_image {
+  background-image: url(Grouptar.png);
+  width: 100%;
+  height: auto;
+}
+.portfolio_mobile_center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.portfolio_mobile {
+  background: rgba(15, 37, 84, 0.62);
+  box-shadow: rgba(20, 35, 70, 1);
+  border-radius: 50px;
+  width: 365px;
+  height: 100%;
+}
+
+.portfolio_mobile_title {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 22px 15px;
+}
+.portfolio_bitcoin_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 12px 0px;
+}
+.portfolio_bitcoin_underpass {
+  display: flex;
+  gap: 20px;
+}
+.portfolio_bitcoin_heading {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+.portfolio_bitcoin_add {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 255, 71, 1);
+}
+
+.portfolio_bitcoin {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.portfolio_reason_heading {
+  font-size: 36px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  max-width: 75%;
+  padding-bottom: 20px;
+}
+
+.portfolio_content {
+  display: flex;
+  gap: 20px;
+  max-width: 78%;
+  margin-bottom: 25px;
+}
+.portfolio_box {
+  background: rgba(15, 21, 53, 1);
+  text-align: center;
+  margin-top: 10px;
+}
+.portfolio_heading {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  padding: 10px 0px;
+}
+.portfolio_para {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.section5 {
+  background: rgba(0, 9, 42, 1);
+}
+
+.footer_container {
+  display: flex;
+  width: 100%;
+  padding: 25px 0px;
+}
+
+.footer_coin {
+  width: 100%;
+}
+.footer_right {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_content {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 20px;
+  max-width: 80%;
+}
+.footer_company > h1 {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer_company > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+.section6 {
+  background: rgba(4, 19, 52, 1);
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1);
+  padding: 20px 0px;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 100%;
+  }
+  .container_box {
+    padding: 10px 0px 0px 0px;
+  }
+  .header_title {
+    gap: 10px;
+    justify-content: center;
+  }
+  .logo {
+    margin: 10px;
+  }
+  .portfolio_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .map {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .section2 {
+    width: 100%;
+  }
+  .section3_content {
+    width: 100%;
+  }
+
+  .portfolio_image {
+    width: 320px;
+  }
+  .portfolio_mobile {
+    width: auto;
+    height: 100%;
+  }
+  .footer_right {
+    justify-content: space-evenly;
+  }
+  .footer_content {
+    max-width: 90%;
+    padding: 10px;
+  }
+  .portfolio_reason_heading {
+    font-size: 36px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    max-width: auto;
+    padding-bottom: 20px;
+  }
+
+  .container_box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .searchbar {
+    text-align: center;
+  }
+  .trades_names_box {
+    padding: 10px 10px 30px 10px;
+    margin: 0px 10px;
+  }
+  .trades_24hours {
+    font-size: 22px;
+  }
+
+  .portfolio_content {
+    width: 100%;
+  }
+  .portfolio_container {
+    padding: 0px;
+  }
+
+  .section3_image {
+    width: 320px;
+    height: 347px;
+  }
+  .section3_image_arrow {
+    width: auto;
+    height: 300px;
+  }
+
+  .table_row th {
+    color: rgba(255, 255, 255, 1);
+    text-align: start;
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .table_row td {
+    color: rgba(255, 255, 255, 1);
+    text-align: start;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 10px 0px;
+  }
+
+  .treds_short_name {
+    font-size: 8px;
+    font-weight: 400;
+    color: rgba(133, 133, 133, 1);
+    padding-left: 2px;
+  }
+  .bitcoin1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: -8px;
+  }
+  .graph_image {
+    width: 30px;
+    height: 20px;
+  }
+  .portfolio_mobile_center {
+    margin-bottom: 30px;
+  }
+  .table_data {
+    padding: 10px;
+  }
+  .map_content_lorem {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    max-width: 90%;
+    padding: 15px 10px;
+  }
+  .map_content {
+    font-size: 36px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    padding: 14px 10px 0px 10px;
+  }
+  .Clarity_container {
+    display: flex;
+    gap: 20px;
+    max-width: 90%;
+    margin: 0px 10px 25px 10px;
+  }
+  .portfolio_reason {
+    margin: 0px 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .section3_image_arrow {
+    width: 100%;
+    height: auto;
+  }
+  .footer_coin > img {
+    width: 90%;
+  }
+}
